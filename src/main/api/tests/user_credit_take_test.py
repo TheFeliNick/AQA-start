@@ -4,7 +4,6 @@ from sqlalchemy.orm import Session
 from src.main.api.classes.api_manager import ApiManager
 from src.main.api.db.crud.account_crud import AccountCrudDb
 from src.main.api.db.crud.credit_crud import CreditCrudDb
-from src.main.api.db.crud.transaction_crud import TransactionCrudDb
 from src.main.api.fixtures.api_fixture import api_manager
 from src.main.api.models.create_credit_user_request import CreateCreditUserRequest
 
